@@ -1,0 +1,72 @@
+[14-Jul-2016 16:34:02 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/blatt/app/Http/routes.php on line 21
+[14-Jul-2016 16:34:02 UTC] PHP Stack trace:
+[14-Jul-2016 16:34:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/blatt/public/index.php:0
+[14-Jul-2016 16:34:02 UTC] PHP   2. Illuminate\Foundation\Http\Kernel->handle($request = *uninitialized*) /home/ubuntu/workspace/blatt/public/index.php:54
+[14-Jul-2016 16:34:02 UTC] PHP   3. Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter($request = *uninitialized*) /home/ubuntu/workspace/blatt/bootstrap/cache/compiled.php:2240
+[14-Jul-2016 16:34:02 UTC] PHP   4. Illuminate\Foundation\Http\Kernel->bootstrap() /home/ubuntu/workspace/blatt/bootstrap/cache/compiled.php:2256
+[14-Jul-2016 16:34:02 UTC] PHP   5. Illuminate\Foundation\Application->bootstrapWith($bootstrappers = *uninitialized*) /home/ubuntu/workspace/blatt/bootstrap/cache/compiled.php:2303
+[14-Jul-2016 16:34:02 UTC] PHP   6. Illuminate\Foundation\Bootstrap\BootProviders->bootstrap($app = *uninitialized*) /home/ubuntu/workspace/blatt/bootstrap/cache/compiled.php:1587
+[14-Jul-2016 16:34:02 UTC] PHP   7. Illuminate\Foundation\Application->boot() /home/ubuntu/workspace/blatt/bootstrap/cache/compiled.php:2139
+[14-Jul-2016 16:34:02 UTC] PHP   8. array_walk(*uninitialized*, *uninitialized*) /home/ubuntu/workspace/blatt/bootstrap/cache/compiled.php:1801
+[14-Jul-2016 16:34:02 UTC] PHP   9. Illuminate\Foundation\Application->Illuminate\Foundation\{closure}($p = *uninitialized*, *uninitialized*) /home/ubuntu/workspace/blatt/bootstrap/cache/compiled.php:1801
+[14-Jul-2016 16:34:02 UTC] PHP  10. Illuminate\Foundation\Application->bootProvider($provider = *uninitialized*) /home/ubuntu/workspace/blatt/bootstrap/cache/compiled.php:1800
+[14-Jul-2016 16:34:02 UTC] PHP  11. Illuminate\Container\Container->call($callback = *uninitialized*, $parameters = *uninitialized*, $defaultMethod = *uninitialized*) /home/ubuntu/workspace/blatt/bootstrap/cache/compiled.php:1808
+[14-Jul-2016 16:34:02 UTC] PHP  12. call_user_func_array:{/home/ubuntu/workspace/blatt/bootstrap/cache/compiled.php:1187}(*uninitialized*, *uninitialized*) /home/ubuntu/workspace/blatt/bootstrap/cache/compiled.php:1187
+[14-Jul-2016 16:34:02 UTC] PHP  13. App\Providers\RouteServiceProvider->boot($router = *uninitialized*) /home/ubuntu/workspace/blatt/bootstrap/cache/compiled.php:1187
+[14-Jul-2016 16:34:02 UTC] PHP  14. Illuminate\Foundation\Support\Providers\RouteServiceProvider->boot($router = *uninitialized*) /home/ubuntu/workspace/blatt/app/Providers/RouteServiceProvider.php:29
+[14-Jul-2016 16:34:02 UTC] PHP  15. Illuminate\Foundation\Support\Providers\RouteServiceProvider->loadRoutes() /home/ubuntu/workspace/blatt/bootstrap/cache/compiled.php:5598
+[14-Jul-2016 16:34:02 UTC] PHP  16. Illuminate\Container\Container->call($callback = *uninitialized*, $parameters = *uninitialized*, $defaultMethod = *uninitialized*) /home/ubuntu/workspace/blatt/bootstrap/cache/compiled.php:5619
+[14-Jul-2016 16:34:02 UTC] PHP  17. call_user_func_array:{/home/ubuntu/workspace/blatt/bootstrap/cache/compiled.php:1187}(*uninitialized*, *uninitialized*) /home/ubuntu/workspace/blatt/bootstrap/cache/compiled.php:1187
+[14-Jul-2016 16:34:02 UTC] PHP  18. App\Providers\RouteServiceProvider->map($router = *uninitialized*) /home/ubuntu/workspace/blatt/bootstrap/cache/compiled.php:1187
+[14-Jul-2016 16:34:02 UTC] PHP  19. Illuminate\Routing\Router->group($attributes = *uninitialized*, $callback = *uninitialized*) /home/ubuntu/workspace/blatt/app/Providers/RouteServiceProvider.php:42
+[14-Jul-2016 16:34:02 UTC] PHP  20. call_user_func:{/home/ubuntu/workspace/blatt/bootstrap/cache/compiled.php:7391}(*uninitialized*, *uninitialized*) /home/ubuntu/workspace/blatt/bootstrap/cache/compiled.php:7391
+[14-Jul-2016 16:34:02 UTC] PHP  21. App\Providers\RouteServiceProvider->App\Providers\{closure}($router = *uninitialized*) /home/ubuntu/workspace/blatt/bootstrap/cache/compiled.php:7391
+[09-Sep-2016 05:11:00 UTC] PHP Fatal error:  Class 'App\Http\Controllers\DB' not found in /home/ubuntu/workspace/blatt/app/Http/Controllers/IndexController.php on line 49
+[09-Sep-2016 05:11:00 UTC] PHP Stack trace:
+[09-Sep-2016 05:11:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/blatt/public/index.php:0
+[09-Sep-2016 05:11:00 UTC] PHP   2. Illuminate\Foundation\Http\Kernel->handle($request = *uninitialized*) /home/ubuntu/workspace/blatt/public/index.php:54
+[09-Sep-2016 05:11:00 UTC] PHP   3. Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter($request = *uninitialized*) /home/ubuntu/workspace/blatt/bootstrap/cache/compiled.php:2240
+[09-Sep-2016 05:11:00 UTC] PHP   4. Illuminate\Pipeline\Pipeline->then($destination = *uninitialized*) /home/ubuntu/workspace/blatt/bootstrap/cache/compiled.php:2257
+[09-Sep-2016 05:11:00 UTC] PHP   5. call_user_func:{/home/ubuntu/workspace/blatt/bootstrap/cache/compiled.php:9624}(*uninitialized*, *uninitialized*) /home/ubuntu/workspace/blatt/bootstrap/cache/compiled.php:9624
+[09-Sep-2016 05:11:00 UTC] PHP   6. Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}($passable = *uninitialized*) /home/ubuntu/workspace/blatt/bootstrap/cache/compiled.php:9624
+[09-Sep-2016 05:11:00 UTC] PHP   7. call_user_func_array:{/home/ubuntu/workspace/blatt/bootstrap/cache/compiled.php:9634}(*uninitialized*, *uninitialized*) /home/ubuntu/workspace/blatt/bootstrap/cache/compiled.php:9634
+[09-Sep-2016 05:11:00 UTC] PHP   8. Illuminate\Foundation\Http\Middleware\CheckForMaintenanceMode->handle($request = *uninitialized*, $next = *uninitialized*) /home/ubuntu/workspace/blatt/bootstrap/cache/compiled.php:9634
+[09-Sep-2016 05:11:00 UTC] PHP   9. Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}($passable = *uninitialized*) /home/ubuntu/workspace/blatt/bootstrap/cache/compiled.php:2982
+[09-Sep-2016 05:11:00 UTC] PHP  10. call_user_func_array:{/home/ubuntu/workspace/blatt/bootstrap/cache/compiled.php:9634}(*uninitialized*, *uninitialized*) /home/ubuntu/workspace/blatt/bootstrap/cache/compiled.php:9634
+[09-Sep-2016 05:11:00 UTC] PHP  11. Illuminate\Cookie\Middleware\EncryptCookies->handle($request = *uninitialized*, $next = *uninitialized*) /home/ubuntu/workspace/blatt/bootstrap/cache/compiled.php:9634
+[09-Sep-2016 05:11:00 UTC] PHP  12. Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}($passable = *uninitialized*) /home/ubuntu/workspace/blatt/bootstrap/cache/compiled.php:12667
+[09-Sep-2016 05:11:00 UTC] PHP  13. call_user_func_array:{/home/ubuntu/workspace/blatt/bootstrap/cache/compiled.php:9634}(*uninitialized*, *uninitialized*) /home/ubuntu/workspace/blatt/bootstrap/cache/compiled.php:9634
+[09-Sep-2016 05:11:00 UTC] PHP  14. Illuminate\Cookie\Middleware\AddQueuedCookiesToResponse->handle($request = *uninitialized*, $next = *uninitialized*) /home/ubuntu/workspace/blatt/bootstrap/cache/compiled.php:9634
+[09-Sep-2016 05:11:00 UTC] PHP  15. Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}($passable = *uninitialized*) /home/ubuntu/workspace/blatt/bootstrap/cache/compiled.php:12730
+[09-Sep-2016 05:11:00 UTC] PHP  16. call_user_func_array:{/home/ubuntu/workspace/blatt/bootstrap/cache/compiled.php:9634}(*uninitialized*, *uninitialized*) /home/ubuntu/workspace/blatt/bootstrap/cache/compiled.php:9634
+[09-Sep-2016 05:11:00 UTC] PHP  17. Illuminate\Session\Middleware\StartSession->handle($request = *uninitialized*, $next = *uninitialized*) /home/ubuntu/workspace/blatt/bootstrap/cache/compiled.php:9634
+[09-Sep-2016 05:11:00 UTC] PHP  18. Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}($passable = *uninitialized*) /home/ubuntu/workspace/blatt/bootstrap/cache/compiled.php:11585
+[09-Sep-2016 05:11:00 UTC] PHP  19. call_user_func_array:{/home/ubuntu/workspace/blatt/bootstrap/cache/compiled.php:9634}(*uninitialized*, *uninitialized*) /home/ubuntu/workspace/blatt/bootstrap/cache/compiled.php:9634
+[09-Sep-2016 05:11:00 UTC] PHP  20. Illuminate\View\Middleware\ShareErrorsFromSession->handle($request = *uninitialized*, $next = *uninitialized*) /home/ubuntu/workspace/blatt/bootstrap/cache/compiled.php:9634
+[09-Sep-2016 05:11:00 UTC] PHP  21. Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}($passable = *uninitialized*) /home/ubuntu/workspace/blatt/bootstrap/cache/compiled.php:12993
+[09-Sep-2016 05:11:00 UTC] PHP  22. call_user_func_array:{/home/ubuntu/workspace/blatt/bootstrap/cache/compiled.php:9634}(*uninitialized*, *uninitialized*) /home/ubuntu/workspace/blatt/bootstrap/cache/compiled.php:9634
+[09-Sep-2016 05:11:00 UTC] PHP  23. Illuminate\Foundation\Http\Middleware\VerifyCsrfToken->handle($request = *uninitialized*, $next = *uninitialized*) /home/ubuntu/workspace/blatt/bootstrap/cache/compiled.php:9634
+[09-Sep-2016 05:11:00 UTC] PHP  24. Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}($passable = *uninitialized*) /home/ubuntu/workspace/blatt/bootstrap/cache/compiled.php:2925
+[09-Sep-2016 05:11:00 UTC] PHP  25. call_user_func:{/home/ubuntu/workspace/blatt/bootstrap/cache/compiled.php:9642}(*uninitialized*, *uninitialized*) /home/ubuntu/workspace/blatt/bootstrap/cache/compiled.php:9642
+[09-Sep-2016 05:11:00 UTC] PHP  26. Illuminate\Foundation\Http\Kernel->Illuminate\Foundation\Http\{closure}($request = *uninitialized*) /home/ubuntu/workspace/blatt/bootstrap/cache/compiled.php:9642
+[09-Sep-2016 05:11:00 UTC] PHP  27. Illuminate\Routing\Router->dispatch($request = *uninitialized*) /home/ubuntu/workspace/blatt/bootstrap/cache/compiled.php:2310
+[09-Sep-2016 05:11:00 UTC] PHP  28. Illuminate\Routing\Router->dispatchToRoute($request = *uninitialized*) /home/ubuntu/workspace/blatt/bootstrap/cache/compiled.php:7504
+[09-Sep-2016 05:11:00 UTC] PHP  29. Illuminate\Routing\Router->runRouteWithinStack($route = *uninitialized*, $request = *uninitialized*) /home/ubuntu/workspace/blatt/bootstrap/cache/compiled.php:7519
+[09-Sep-2016 05:11:00 UTC] PHP  30. Illuminate\Pipeline\Pipeline->then($destination = *uninitialized*) /home/ubuntu/workspace/blatt/bootstrap/cache/compiled.php:7531
+[09-Sep-2016 05:11:00 UTC] PHP  31. call_user_func:{/home/ubuntu/workspace/blatt/bootstrap/cache/compiled.php:9624}(*uninitialized*, *uninitialized*) /home/ubuntu/workspace/blatt/bootstrap/cache/compiled.php:9624
+[09-Sep-2016 05:11:00 UTC] PHP  32. Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}($passable = *uninitialized*) /home/ubuntu/workspace/blatt/bootstrap/cache/compiled.php:9624
+[09-Sep-2016 05:11:00 UTC] PHP  33. call_user_func:{/home/ubuntu/workspace/blatt/bootstrap/cache/compiled.php:9642}(*uninitialized*, *uninitialized*) /home/ubuntu/workspace/blatt/bootstrap/cache/compiled.php:9642
+[09-Sep-2016 05:11:00 UTC] PHP  34. Illuminate\Routing\Router->Illuminate\Routing\{closure}($request = *uninitialized*) /home/ubuntu/workspace/blatt/bootstrap/cache/compiled.php:9642
+[09-Sep-2016 05:11:00 UTC] PHP  35. Illuminate\Routing\Route->run($request = *uninitialized*) /home/ubuntu/workspace/blatt/bootstrap/cache/compiled.php:7530
+[09-Sep-2016 05:11:00 UTC] PHP  36. Illuminate\Routing\Route->runWithCustomDispatcher($request = *uninitialized*) /home/ubuntu/workspace/blatt/bootstrap/cache/compiled.php:7877
+[09-Sep-2016 05:11:00 UTC] PHP  37. Illuminate\Routing\ControllerDispatcher->dispatch($route = *uninitialized*, $request = *uninitialized*, $controller = *uninitialized*, $method = *uninitialized*) /home/ubuntu/workspace/blatt/bootstrap/cache/compiled.php:7906
+[09-Sep-2016 05:11:00 UTC] PHP  38. Illuminate\Routing\ControllerDispatcher->callWithinStack($instance = *uninitialized*, $route = *uninitialized*, $request = *uninitialized*, $method = *uninitialized*) /home/ubuntu/workspace/blatt/bootstrap/cache/compiled.php:8957
+[09-Sep-2016 05:11:00 UTC] PHP  39. Illuminate\Pipeline\Pipeline->then($destination = *uninitialized*) /home/ubuntu/workspace/blatt/bootstrap/cache/compiled.php:8972
+[09-Sep-2016 05:11:00 UTC] PHP  40. call_user_func:{/home/ubuntu/workspace/blatt/bootstrap/cache/compiled.php:9624}(*uninitialized*, *uninitialized*) /home/ubuntu/workspace/blatt/bootstrap/cache/compiled.php:9624
+[09-Sep-2016 05:11:00 UTC] PHP  41. Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}($passable = *uninitialized*) /home/ubuntu/workspace/blatt/bootstrap/cache/compiled.php:9624
+[09-Sep-2016 05:11:00 UTC] PHP  42. call_user_func:{/home/ubuntu/workspace/blatt/bootstrap/cache/compiled.php:9642}(*uninitialized*, *uninitialized*) /home/ubuntu/workspace/blatt/bootstrap/cache/compiled.php:9642
+[09-Sep-2016 05:11:00 UTC] PHP  43. Illuminate\Routing\ControllerDispatcher->Illuminate\Routing\{closure}($request = *uninitialized*) /home/ubuntu/workspace/blatt/bootstrap/cache/compiled.php:9642
+[09-Sep-2016 05:11:00 UTC] PHP  44. Illuminate\Routing\ControllerDispatcher->call($instance = *uninitialized*, $route = *uninitialized*, $method = *uninitialized*) /home/ubuntu/workspace/blatt/bootstrap/cache/compiled.php:8971
+[09-Sep-2016 05:11:00 UTC] PHP  45. Illuminate\Routing\Controller->callAction($method = *uninitialized*, $parameters = *uninitialized*) /home/ubuntu/workspace/blatt/bootstrap/cache/compiled.php:8991
+[09-Sep-2016 05:11:00 UTC] PHP  46. call_user_func_array:{/home/ubuntu/workspace/blatt/bootstrap/cache/compiled.php:8922}(*uninitialized*, *uninitialized*) /home/ubuntu/workspace/blatt/bootstrap/cache/compiled.php:8922
+[09-Sep-2016 05:11:00 UTC] PHP  47. App\Http\Controllers\IndexController->codigos($request = *uninitialized*) /home/ubuntu/workspace/blatt/bootstrap/cache/compiled.php:8922
